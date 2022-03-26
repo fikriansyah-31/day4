@@ -15,8 +15,9 @@ function submitdata() {
     } else if (message == "") {
       return alert("isikan message");
     }
-    let email_receiver = "hargiantofebrisena@gmail.com";
+    let email_receiver = "fikri@gmail.com";
     let a = document.createElement("a");
+    
     // Kasih Comma %2C
     // Kasih new line %0D%0A
     a.href = `mailto:${email_receiver}?subject=${subject}&body=Hello my name ${name}%2C${subject}%2C
