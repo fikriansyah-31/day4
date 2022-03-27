@@ -77,3 +77,25 @@
     align-items: center;
     justify-content: space-between;
 }
+.button-edit {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 45px;
+    margin-left: 18px;
+    border: none;
+    cursor: pointer;
+    margin: 20px -5px;
+  }
+  .button-delete {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: none;
+    margin: 20px -5px;
+  }
+  .text-project {
+    text-align: center;
+  }
