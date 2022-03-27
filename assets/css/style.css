@@ -64,3 +64,154 @@ section .section-right {
 .image {
   border-radius: 5px;
 }
+body{
+  margin: 0px;
+}
+nav {
+  background-color: #7c7c7c;
+  display: flex;
+  height: 8vh;
+}
+
+
+.nav-left {
+  display: flex;
+  flex: 50%;
+  padding-left: 100px;
+  align-items: center;
+}
+nav .nav-left li {
+  display: inline;
+}
+nav .nav-left a {
+  text-decoration: none;
+  padding: 12px;
+  color: black;
+  font-weight: bold;
+}
+nav .nav-left a:hover {
+  color: grey;
+  font-size: 16px;
+}
+
+
+
+.nav-right {
+  display: flex;
+  flex: 50%;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 100px;
+}
+nav .nav-right a {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 10px;
+}
+
+/* Css Contact */
+
+.form {
+  width: 400px;
+  margin: 150px auto;
+  margin-top: 15px;
+}
+
+.form h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form div {
+  margin-top: 20px;
+}
+
+.form div label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.form input {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.form select {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.form textarea {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(226, 226, 226);
+  height: 100px;
+  resize: vertical;
+
+}
+
+.submit {
+  display: flex;
+  justify-content: flex-end;
+  height: auto;
+
+}
+
+.form button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 30px;
+  border: none;
+  padding: 8px 30px;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Detail Blog */
+
+.text-center {
+  text-align: center;
+}
+.box {
+  display: flex;
+  width: 1200px;
+  margin: 50px auto;
+}
+.box-layout {
+  flex: 50%;
+}
+.box-layout1 {
+  flex: 50%;
+  margin-left: 20px;
+}
+.image {
+  width: 100%;
+}
+.item2 {
+  margin-top: 20px;
+}
+.text-tech {
+  display: flex;
+}
+.text-tech1 {
+  flex: 50%;
+}
+.text-blog {
+  width: 1200px;
+  margin: 50px auto;
+}
